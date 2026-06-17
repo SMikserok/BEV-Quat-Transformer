@@ -1,0 +1,20 @@
+pan_to_bev:
+  images_to_process_limit: 1
+  json_path: "/path/to/information.json"
+  images_dir: "/path/to/images"
+  panorama_dir: "/path/to/result/panorama"
+  bev_dir: "/path/to/result/bev"
+  panorama_width: 1024
+  panorama_height: 512
+  bev_size: 512
+  fov: 120.0
+  batch_size: 8
+  device: "cpu" # Может быть "cpu", "cuda", или "auto"
+
+image_eller_quat:
+  image_path: "/path/to/images/4_1732853237746729.jpg"
+  output_width: 1024
+  output_height: 512
+  quaternion: [0.13654, 0.0103153, 0.13654, -0.981109]
+  horizontal_fov_deg: 90.0
+  output_path: "/path/to/result/panorama_inverse.png"
