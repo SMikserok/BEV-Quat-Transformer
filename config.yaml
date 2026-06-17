@@ -9,7 +9,7 @@ pan_to_bev:
   bev_size: 512
   fov: 120.0
   batch_size: 8
-  device: "cpu" # Может быть "cpu", "cuda", или "auto"
+  device: "cpu" #   Может быть "cpu", "cuda", или "auto"
 
 image_eller_quat:
   image_path: "/path/to/images/4_1732853237746729.jpg"
